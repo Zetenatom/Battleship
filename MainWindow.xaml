@@ -1,3 +1,36 @@
+    <Window x:Class="Battleship.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Battleship"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="Blue" ShowGridLines="True" Margin="0,0,-507,-195.5">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Name="Boarder" Width="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+            <ColumnDefinition Width ="48"/>
+        </Grid.ColumnDefinitions>
+    
     <Grid.RowDefinitions>
         <RowDefinition Height="1*"/>
         <RowDefinition Height="1*"/>
@@ -36,27 +69,27 @@
     <TextBlock Grid.Column="0" Grid.Row="0" Background="White" Text="Player 1" TextAlignment="Center"></TextBlock>
     <TextBlock Grid.Column="11" Grid.Row="0" Background="White" Text="Player 2" TextAlignment="Center"></TextBlock>
     
-    <Button Name="Alpha" Click="Button_ClickAlpha" Grid.Column="12">Alpha</Button>
-    <Button Name="Beta" Click="Button_ClickBeta" Grid.Column="13">Beta</Button>
-    <Button Name="Charlie" Click="Button_ClickCharlie" Grid.Column="14">Charlie</Button>
-    <Button Name="Delta" Click="Button_ClickDelta" Grid.Column="15">Delta</Button>
-    <Button Name="Echo" Click="Button_ClickEcho" Grid.Column="16">Echo</Button>
-    <Button Name="Foxtrot" Click="Button_ClickFoxtrot" Grid.Column="17">Foxtrot</Button>
-    <Button Name="Gamma" Click="Button_ClickGamma" Grid.Column="18">Gamma</Button>
-    <Button Name="Hotel" Click="Button_ClickHotel" Grid.Column="19">Hotel</Button>
-    <Button Name="Indego" Click="Button_ClickIndego" Grid.Column="20">Indego</Button>
-    <Button Name="Juliet" Click="Button_ClickJuliet" Grid.Column="21">Juliet</Button>
-    <Button Name="button1" Click="Button_Click1" Grid.Column="11" Grid.Row="1">1</Button>
-    <Button Name="button2" Click="Button_Click2" Grid.Column="11" Grid.Row="2">2</Button>
-    <Button Name="button3" Click="Button_Click3" Grid.Column="11" Grid.Row="3">3</Button>
-    <Button Name="button4" Click="Button_Click4" Grid.Column="11" Grid.Row="4">4</Button>
-    <Button Name="button5" Click="Button_Click5" Grid.Column="11" Grid.Row="5">5</Button>
-    <Button Name="button6" Click="Button_Click6" Grid.Column="11" Grid.Row="6">6</Button>
-    <Button Name="button7" Click="Button_Click7" Grid.Column="11" Grid.Row="7">7</Button>
-    <Button Name="button8" Click="Button_Click8" Grid.Column="11" Grid.Row="8">8</Button>
-    <Button Name="button9" Click="Button_Click9" Grid.Column="11" Grid.Row="9">9</Button>
-    <Button Name="button10" Click="Button_Click10" Grid.Column="11" Grid.Row="10">10</Button>
-
+    <Button Name="Alpha1" Grid.Column="1">Alpha</Button>
+        <Button Name="Beta1" Grid.Column="2">Beta</Button>
+        <Button Name="Charlie1" Grid.Column="3">Charlie</Button>
+        <Button Name="Delta1" Grid.Column="4">Delta</Button>
+        <Button Name="Echo1" Grid.Column="5">Echo</Button>
+        <Button Name="Foxtrot1" Grid.Column="6">Foxtrot</Button>
+        <Button Name="Gamma1" Grid.Column="7">Gamma</Button>
+        <Button Name="Hotel1" Grid.Column="8">Hotel</Button>
+        <Button Name="Indego1" Grid.Column="9">Indego</Button>
+        <Button Name="Juliet1" Grid.Column="10">Juliet</Button>
+        <Button Name="Q1" Grid.Row="1">1</Button>
+        <Button Name="Q2" Grid.Row="2">2</Button>
+        <Button Name="Q3" Grid.Row="3">3</Button>
+        <Button Name="Q4" Grid.Row="4">4</Button>
+        <Button Name="Q5" Grid.Row="5">5</Button>
+        <Button Name="Q6" Grid.Row="6">6</Button>
+        <Button Name="Q7" Grid.Row="7">7</Button>
+        <Button Name="Q8" Grid.Row="8">8</Button>
+        <Button Name="Q9" Grid.Row="9">9</Button>
+        <Button Name="Q10" Grid.Row="10">10</Button>
+    
     <Label MouseDown="Labels_MouseDown" Name="P1A1" Grid.Column="1" Grid.Row="1"></Label>
     <Label MouseDown="Labels_MouseDown" Name="P1A2" Grid.Column="1" Grid.Row="2"></Label>
     <Label MouseDown="Labels_MouseDown" Name="P1A3" Grid.Column="1" Grid.Row="3"></Label>
@@ -258,3 +291,4 @@
     <Label MouseDown="Labels_MouseDown" Name="P2J9" Grid.Column="21" Grid.Row="9"></Label>
     <Label MouseDown="Labels_MouseDown" Name="P2J10" Grid.Column="21" Grid.Row="10"></Label>
 </Grid>
+</window>
