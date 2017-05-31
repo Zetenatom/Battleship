@@ -292,4 +292,4 @@
     <Label MouseDown="Labels_MouseDown" Name="P2J9" Grid.Column="21" Grid.Row="9"></Label>
     <Label MouseDown="Labels_MouseDown" Name="P2J10" Grid.Column="21" Grid.Row="10"></Label>
 </Grid>
-</window>
+</Window>
