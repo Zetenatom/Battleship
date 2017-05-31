@@ -69,26 +69,27 @@
     <TextBlock Grid.Column="0" Grid.Row="0" Background="White" Text="Player 1" TextAlignment="Center"></TextBlock>
     <TextBlock Grid.Column="11" Grid.Row="0" Background="White" Text="Player 2" TextAlignment="Center"></TextBlock>
     
-    <Button Name="Alpha1" Grid.Column="1">Alpha</Button>
-        <Button Name="Beta1" Grid.Column="2">Beta</Button>
-        <Button Name="Charlie1" Grid.Column="3">Charlie</Button>
-        <Button Name="Delta1" Grid.Column="4">Delta</Button>
-        <Button Name="Echo1" Grid.Column="5">Echo</Button>
-        <Button Name="Foxtrot1" Grid.Column="6">Foxtrot</Button>
-        <Button Name="Gamma1" Grid.Column="7">Gamma</Button>
-        <Button Name="Hotel1" Grid.Column="8">Hotel</Button>
-        <Button Name="Indego1" Grid.Column="9">Indego</Button>
-        <Button Name="Juliet1" Grid.Column="10">Juliet</Button>
-        <Button Name="Q1" Grid.Row="1">1</Button>
-        <Button Name="Q2" Grid.Row="2">2</Button>
-        <Button Name="Q3" Grid.Row="3">3</Button>
-        <Button Name="Q4" Grid.Row="4">4</Button>
-        <Button Name="Q5" Grid.Row="5">5</Button>
-        <Button Name="Q6" Grid.Row="6">6</Button>
-        <Button Name="Q7" Grid.Row="7">7</Button>
-        <Button Name="Q8" Grid.Row="8">8</Button>
-        <Button Name="Q9" Grid.Row="9">9</Button>
-        <Button Name="Q10" Grid.Row="10">10</Button>
+         <Button Name="Alpha" Grid.Column="12">Alpha</Button>
+        <Button Name="Beta" Grid.Column="13">Beta</Button>
+        <Button Name="Charlie" Grid.Column="14">Charlie</Button>
+        <Button Name="Delta" Grid.Column="15">Delta</Button>
+        <Button Name="Echo" Grid.Column="16">Echo</Button>
+        <Button Name="Foxtrot" Grid.Column="17">Foxtrot</Button>
+        <Button Name="Gamma" Grid.Column="18">Gamma</Button>
+        <Button Name="Hotel" Grid.Column="19">Hotel</Button>
+        <Button Name="Indego" Grid.Column="20">Indego</Button>
+        <Button Name="Juliet" Grid.Column="21">Juliet</Button>
+        <Button Name="button1" Grid.Column="11" Grid.Row="1">1</Button>
+        <Button Name="button2" Grid.Column="11" Grid.Row="2">2</Button>
+        <Button Name="button3" Grid.Column="11" Grid.Row="3">3</Button>
+        <Button Name="button4" Grid.Column="11" Grid.Row="4">4</Button>
+        <Button Name="button5" Grid.Column="11" Grid.Row="5">5</Button>
+        <Button Name="button6" Grid.Column="11" Grid.Row="6">6</Button>
+        <Button Name="button7" Grid.Column="11" Grid.Row="7">7</Button>
+        <Button Name="button8" Grid.Column="11" Grid.Row="8">8</Button>
+        <Button Name="button9" Grid.Column="11" Grid.Row="9">9</Button>
+        <Button Name="button10" Grid.Column="11" Grid.Row="10">10</Button>
+
     
     <Label MouseDown="Labels_MouseDown" Name="P1A1" Grid.Column="1" Grid.Row="1"></Label>
     <Label MouseDown="Labels_MouseDown" Name="P1A2" Grid.Column="1" Grid.Row="2"></Label>
