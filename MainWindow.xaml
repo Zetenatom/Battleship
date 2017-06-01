@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Battleship"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid Background="Blue" ShowGridLines="True" Margin="0,0,-507,-195.5">
+    <Grid Background="Blue" ShowGridLines="True">
         <Grid.ColumnDefinitions>
            <ColumnDefinition Width="48*" />
             <ColumnDefinition Width="48*" />
