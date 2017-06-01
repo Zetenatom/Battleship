@@ -26,9 +26,10 @@ namespace Battleship
         }
 
 
-        private Brush Labels_MouseDown(object sender, MouseButtonEventArgs e)
+        private void Labels_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            return new SolidColorBrush(Colors.Black);
+            //Label selected = (Label)sender;
+            //selected.Background  = Brushes.Black;
         }
     }
 }
