@@ -12,5 +12,12 @@ namespace Battleship.Models.Players
         {
 
         }
+
+        public static void aiAttack()
+        {
+            Random rand = new Random();
+            
+            Controller.Controller.FireCannons(rand.Next(1, 11), rand.Next(1, 11));
+        }
     }
 }
