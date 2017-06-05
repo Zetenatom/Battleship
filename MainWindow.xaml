@@ -49,12 +49,17 @@
         </Grid.RowDefinitions>
 
         
-        <Popup Name="DirectionalPop" IsOpen="false" Placement="Center" >
+        <Popup Margin="10,10,0,13" Name="DirectionalPop" HorizontalAlignment="Left"   
+        VerticalAlignment="Top" Width="194" Height="100" IsOpen="False" StaysOpen="True" Placement="Center">
             <StackPanel>
-                <Button Content="Up" />
-                <Button Content="Right" />
-                <Button Content="Left" />
+                <TextBlock Name="OrientationBlock"   
+                Background="LightBlue" >
+                </TextBlock>
+                <Button Content="Up"  Click="Button_Click"/>
+                <Button Content="Right" Click="Button_Click"/>
+                <Button Content="Left" Click="Button_Click"/>
                 <Button Content="Down" Click="Button_Click"/>
+
             </StackPanel>
         </Popup>
 
