@@ -47,261 +47,71 @@ namespace Battleship
 
         }
 
-        public void disableLabels()
-        {
-            P2A1.IsEnabled = false;
-            P2A2.IsEnabled = false;
-            P2A3.IsEnabled = false;
-            P2A4.IsEnabled = false;
-            P2A5.IsEnabled = false;
-            P2A6.IsEnabled = false;
-            P2A7.IsEnabled = false;
-            P2A8.IsEnabled = false;
-            P2A9.IsEnabled = false;
-            P2A10.IsEnabled = false;
-            P2B1.IsEnabled = false;
-            P2B2.IsEnabled = false;
-            P2B3.IsEnabled = false;
-            P2B4.IsEnabled = false;
-            P2B5.IsEnabled = false;
-            P2B6.IsEnabled = false;
-            P2B7.IsEnabled = false;
-            P2B8.IsEnabled = false;
-            P2B9.IsEnabled = false;
-            P2B10.IsEnabled = false;
-            P2C1.IsEnabled = false;
-            P2C2.IsEnabled = false;
-            P2C3.IsEnabled = false;
-            P2C4.IsEnabled = false;
-            P2C5.IsEnabled = false;
-            P2C6.IsEnabled = false;
-            P2C7.IsEnabled = false;
-            P2C8.IsEnabled = false;
-            P2C9.IsEnabled = false;
-            P2C10.IsEnabled = false;
-            P2D1.IsEnabled = false;
-            P2D2.IsEnabled = false;
-            P2D3.IsEnabled = false;
-            P2D4.IsEnabled = false;
-            P2D5.IsEnabled = false;
-            P2D6.IsEnabled = false;
-            P2D7.IsEnabled = false;
-            P2D8.IsEnabled = false;
-            P2D9.IsEnabled = false;
-            P2D10.IsEnabled = false;
-            P2E1.IsEnabled = false;
-            P2E2.IsEnabled = false;
-            P2E3.IsEnabled = false;
-            P2E4.IsEnabled = false;
-            P2E5.IsEnabled = false;
-            P2E6.IsEnabled = false;
-            P2E7.IsEnabled = false;
-            P2E8.IsEnabled = false;
-            P2E9.IsEnabled = false;
-            P2E10.IsEnabled = false;
-            P2F1.IsEnabled = false;
-            P2F2.IsEnabled = false;
-            P2F3.IsEnabled = false;
-            P2F4.IsEnabled = false;
-            P2F5.IsEnabled = false;
-            P2F6.IsEnabled = false;
-            P2F7.IsEnabled = false;
-            P2F8.IsEnabled = false;
-            P2F9.IsEnabled = false;
-            P2F10.IsEnabled = false;
-            P2G1.IsEnabled = false;
-            P2G2.IsEnabled = false;
-            P2G3.IsEnabled = false;
-            P2G4.IsEnabled = false;
-            P2G5.IsEnabled = false;
-            P2G6.IsEnabled = false;
-            P2G7.IsEnabled = false;
-            P2G8.IsEnabled = false;
-            P2G9.IsEnabled = false;
-            P2G10.IsEnabled = false;
-            P2H1.IsEnabled = false;
-            P2H2.IsEnabled = false;
-            P2H3.IsEnabled = false;
-            P2H4.IsEnabled = false;
-            P2H5.IsEnabled = false;
-            P2H6.IsEnabled = false;
-            P2H7.IsEnabled = false;
-            P2H8.IsEnabled = false;
-            P2H9.IsEnabled = false;
-            P2H10.IsEnabled = false;
-            P2I1.IsEnabled = false;
-            P2I2.IsEnabled = false;
-            P2I3.IsEnabled = false;
-            P2I4.IsEnabled = false;
-            P2I5.IsEnabled = false;
-            P2I6.IsEnabled = false;
-            P2I7.IsEnabled = false;
-            P2I8.IsEnabled = false;
-            P2I9.IsEnabled = false;
-            P2I10.IsEnabled = false;
-            P2J1.IsEnabled = false;
-            P2J2.IsEnabled = false;
-            P2J3.IsEnabled = false;
-            P2J4.IsEnabled = false;
-            P2J5.IsEnabled = false;
-            P2J6.IsEnabled = false;
-            P2J7.IsEnabled = false;
-            P2J8.IsEnabled = false;
-            P2J9.IsEnabled = false;
-            P2J10.IsEnabled = false;
 
-        }
-        public void enableLabels()
-        {
-            P2A1.IsEnabled = true;
-            P2A2.IsEnabled = true;
-            P2A3.IsEnabled = true;
-            P2A4.IsEnabled = true;
-            P2A5.IsEnabled = true;
-            P2A6.IsEnabled = true;
-            P2A7.IsEnabled = true;
-            P2A8.IsEnabled = true;
-            P2A9.IsEnabled = true;
-            P2A10.IsEnabled = true;
-            P2B1.IsEnabled = true;
-            P2B2.IsEnabled = true;
-            P2B3.IsEnabled = true;
-            P2B4.IsEnabled = true;
-            P2B5.IsEnabled = true;
-            P2B6.IsEnabled = true;
-            P2B7.IsEnabled = true;
-            P2B8.IsEnabled = true;
-            P2B9.IsEnabled = true;
-            P2B10.IsEnabled = true;
-            P2C1.IsEnabled = true;
-            P2C2.IsEnabled = true;
-            P2C3.IsEnabled = true;
-            P2C4.IsEnabled = true;
-            P2C5.IsEnabled = true;
-            P2C6.IsEnabled = true;
-            P2C7.IsEnabled = true;
-            P2C8.IsEnabled = true;
-            P2C9.IsEnabled = true;
-            P2C10.IsEnabled = true;
-            P2D1.IsEnabled = true;
-            P2D2.IsEnabled = true;
-            P2D3.IsEnabled = true;
-            P2D4.IsEnabled = true;
-            P2D5.IsEnabled = true;
-            P2D6.IsEnabled = true;
-            P2D7.IsEnabled = true;
-            P2D8.IsEnabled = true;
-            P2D9.IsEnabled = true;
-            P2D10.IsEnabled = true;
-            P2E1.IsEnabled = true;
-            P2E2.IsEnabled = true;
-            P2E3.IsEnabled = true;
-            P2E4.IsEnabled = true;
-            P2E5.IsEnabled = true;
-            P2E6.IsEnabled = true;
-            P2E7.IsEnabled = true;
-            P2E8.IsEnabled = true;
-            P2E9.IsEnabled = true;
-            P2E10.IsEnabled = true;
-            P2F1.IsEnabled = true;
-            P2F2.IsEnabled = true;
-            P2F3.IsEnabled = true;
-            P2F4.IsEnabled = true;
-            P2F5.IsEnabled = true;
-            P2F6.IsEnabled = true;
-            P2F7.IsEnabled = true;
-            P2F8.IsEnabled = true;
-            P2F9.IsEnabled = true;
-            P2F10.IsEnabled = true;
-            P2G1.IsEnabled = true;
-            P2G2.IsEnabled = true;
-            P2G3.IsEnabled = true;
-            P2G4.IsEnabled = true;
-            P2G5.IsEnabled = true;
-            P2G6.IsEnabled = true;
-            P2G7.IsEnabled = true;
-            P2G8.IsEnabled = true;
-            P2G9.IsEnabled = true;
-            P2G10.IsEnabled = true;
-            P2H1.IsEnabled = true;
-            P2H2.IsEnabled = true;
-            P2H3.IsEnabled = true;
-            P2H4.IsEnabled = true;
-            P2H5.IsEnabled = true;
-            P2H6.IsEnabled = true;
-            P2H7.IsEnabled = true;
-            P2H8.IsEnabled = true;
-            P2H9.IsEnabled = true;
-            P2H10.IsEnabled = true;
-            P2I1.IsEnabled = true;
-            P2I2.IsEnabled = true;
-            P2I3.IsEnabled = true;
-            P2I4.IsEnabled = true;
-            P2I5.IsEnabled = true;
-            P2I6.IsEnabled = true;
-            P2I7.IsEnabled = true;
-            P2I8.IsEnabled = true;
-            P2I9.IsEnabled = true;
-            P2I10.IsEnabled = true;
-            P2J1.IsEnabled = true;
-            P2J2.IsEnabled = true;
-            P2J3.IsEnabled = true;
-            P2J4.IsEnabled = true;
-            P2J5.IsEnabled = true;
-            P2J6.IsEnabled = true;
-            P2J7.IsEnabled = true;
-            P2J8.IsEnabled = true;
-            P2J9.IsEnabled = true;
-            P2J10.IsEnabled = true;
+        public bool validPlacement = true;
 
-        }
-
-        public static bool placeAiShips(int row, int column, string direction)
+        public void AIShipGen()
         {
             int shipNumber = 1;
+            Random rand = new Random();
 
-            switch (shipNumber)
+            do
             {
-                case 1:
-                    if (validLocation(2, row, column, direction, Models.Board.Board.BattleBoard))
-                    {
-                        Models.Board.Board.BattleBoard[column, row] = Enum.TileStates.BOAT;
+
+                switch (shipNumber)
+                {
+                    case 1:
+                        placeAiShips(2, rand.Next(1, 5));
                         shipNumber++;
-                    }
-                    return false;
-                case 2:
-                    if (validLocation(3, row, column, direction, Models.Board.Board.BattleBoard))
-                    {
-                        Models.Board.Board.BattleBoard[column, row] = Enum.TileStates.BOAT;
+                        break;
+                    case 2:
+                        placeAiShips(3, rand.Next(1, 5));
                         shipNumber++;
-                    }
-                    return false;
-                case 3:
-                    if (validLocation(3, row, column, direction, Models.Board.Board.BattleBoard))
-                    {
-                        Models.Board.Board.BattleBoard[column, row] = Enum.TileStates.BOAT;
+                        break;
+                    case 3:
+                        placeAiShips(3, rand.Next(1, 5));
                         shipNumber++;
-                    }
-                    return false;
-                case 4:
-                    if (validLocation(4, row, column, direction, Models.Board.Board.BattleBoard))
-                    {
-                        Models.Board.Board.BattleBoard[column, row] = Enum.TileStates.BOAT;
+                        break;
+                    case 4:
+                        placeAiShips(4, rand.Next(1, 5));
                         shipNumber++;
-                    }
-                    return false;
-                case 5:
-                    if (validLocation(5, row, column, direction, Models.Board.Board.BattleBoard))
-                    {
-                        Models.Board.Board.BattleBoard[column, row] = Enum.TileStates.BOAT;
+                        break;
+                    case 5:
+                        placeAiShips(5, rand.Next(1, 5));
                         shipNumber++;
-                    }
-                    return false;
-            }
-            return false;
+                        break;
+                }
+            } while (shipNumber < 6);
         }
 
-        public static bool validLocation(int shipSize, int row, int column, string direction, Enum.TileStates[,] board)
+
+        public void placeAiShips(int shipSize, int direction)
+        {
+            string orientation = "";
+            if (direction == 1)
+            {
+                orientation = "Up";
+            }
+            else if (direction == 2)
+            {
+                orientation = "Right";
+            }
+            else if (direction == 3)
+            {
+                orientation = "Left";
+            }
+            else
+            {
+                orientation = "Down";
+            }
+            Random rand = new Random();
+            do
+            {
+                validLocation(shipSize, rand.Next(1, 11), rand.Next(12, 23), orientation, Models.Board.Board.BattleBoard);
+            } while (!validPlacement);
+        }
+
+        public void validLocation(int shipSize, int row, int column, string direction, Enum.TileStates[,] board)
         {
             int directionNum;
             if (direction == "Up")
@@ -320,113 +130,206 @@ namespace Battleship
             {
                 directionNum = 4;
             }
-            
+
 
             switch (directionNum)
             {
                 case 1:
+                    //up
                     Enum.TileStates tileEnd = board[row - shipSize + 1, column];
                     if (tileEnd == Enum.TileStates.WATER)
                     {
-                        for (int i = column; i < column + 1; i++)
+                        for (int i = row; i > row - shipSize; i--)
                         {
-                            for (int j = row; j > row - shipSize; j--)
+                            if (board[column, i] != Enum.TileStates.WATER)
                             {
-                                if (board[i, j] != Enum.TileStates.WATER)
-                                {
-                                    return false;
-                                }
+                                validPlacement = false;
+                                return;
                             }
                         }
+
                     }
                     else
                     {
-                        return false;
+                        validPlacement = false;
+                        return;
                     }
-                    return true;
+                    for (int i = row; i > row - shipSize; i--)
+                    {
+                        ColorTheLabels(column, i);
+                    }
+                    validPlacement = true;
+                    break;
                 case 2:
+                    //right
                     Enum.TileStates tileEnd2 = board[row, column + shipSize - 1];
                     if (tileEnd2 == Enum.TileStates.WATER)
                     {
                         for (int i = column; i < column + shipSize; i++)
                         {
-                            for (int j = row; j < row + 1; j++)
+                            if (board[i, row] != Enum.TileStates.WATER)
                             {
-                                if (board[i, j] != Enum.TileStates.WATER)
-                                {
-                                    return false;
-                                }
+                                validPlacement = false;
+                                return;
                             }
+
                         }
                     }
                     else
                     {
-                        return false;
+                        validPlacement = false;
+                        return;
                     }
-                    return true;
+                    for (int i = column; i < column + shipSize; i++)
+                    {
+                        ColorTheLabels(i, row);
+                    }
+                    validPlacement = true;
+                    break;
                 case 3:
+                    //left
                     Enum.TileStates tileEnd3 = board[row, column - shipSize + 1];
                     if (tileEnd3 == Enum.TileStates.WATER)
                     {
                         for (int i = column; i > column - shipSize; i--)
                         {
-                            for (int j = row; j < row - 1; j--)
+
+                            if (board[i, row] != Enum.TileStates.WATER)
                             {
-                                if (board[i, j] != Enum.TileStates.WATER)
-                                {
-                                    return false;
-                                }
+                                validPlacement = false;
+                                return;
                             }
+
                         }
                     }
                     else
                     {
-                        return false;
+                        validPlacement = false;
+                        return;
                     }
-                    return false;
+                    for (int i = column; i > column - shipSize; i--)
+                    {
+                        ColorTheLabels(i, row);
+                    }
+                    validPlacement = true;
+                    break;
                 case 4:
+                    //down
                     Enum.TileStates tileEnd4 = board[row + shipSize - 1, column];
                     if (tileEnd4 == Enum.TileStates.WATER)
                     {
-                        for (int i = column; i < column + 1; i++)
+                        for (int j = row; j > row + shipSize; j++)
                         {
-                            for (int j = row; j > row + shipSize; j++)
+                            if (board[column, j] != Enum.TileStates.WATER)
                             {
-                                if (board[i, j] != Enum.TileStates.WATER)
-                                {
-                                    return false;
-                                }
+                                validPlacement = false;
+                                return;
                             }
                         }
                     }
                     else
                     {
-                        return false;
+                        validPlacement = false;
+                        return;
                     }
-                    return true;
+                    for (int i = row; i < row + shipSize; i++)
+                    {
+                        ColorTheLabels(column, i);
+                    }
+                    validPlacement = true;
+                    break;
             }
-            
-            return true;
+
         }
 
+        public void ColorTheLabels(int column, int row)
+        {
+            foreach (object label in Board.Children)
+            {
+                if (label.GetType() == typeof(Label))
+                {
+                    if (Grid.GetColumn((Label)label) == column && Grid.GetRow((Label)label) == row)
+                    {
+                        ((Label)label).Background = Brushes.Gray;
+                    }
+                }
+            }
+        }
 
         public static int selectedColumn;
         public static int selectedRow;
+        Label leb;
 
         private void Place_Ship(object sender, MouseEventArgs e)
         {
-            Label leb = (Label)sender;
-            DirectionalPop.IsOpen = true;
+            Models.Board.Board.CreateBoard();
+            leb = (Label)sender;
             selectedColumn = Grid.GetColumn(leb);
             selectedRow = Grid.GetRow(leb);
+
+            do
+            {
+                DirectionalPop.IsOpen = true;
+                if (shipNumber == 6)
+                {
+                    shipNumber = 1;
+                    break;
+                }
+            } while (!validPlacement);
         }
+
+        public int shipNumber = 1;
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             Button selected = (Button)sender;
             string direction = (string)selected.Content;
-            //validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.());
 
+            switch (shipNumber)
+            {
+                case 1:
+                    validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.BattleBoard);
+                    if (validPlacement == false)
+                    {
+                        break;
+                    }
+                    shipNumber++;
+                    break;
+                case 2:
+                    validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.BattleBoard);
+                    if (validPlacement == false)
+                    {
+                        break;
+                    }
+                    shipNumber++;
+                    break;
+                case 3:
+                    validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.BattleBoard);
+                    if (validPlacement == false)
+                    {
+                        break;
+                    }
+                    shipNumber++;
+                    break;
+                case 4:
+                    validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.BattleBoard);
+                    if (validPlacement == false)
+                    {
+                        break;
+                    }
+                    shipNumber++;
+                    break;
+                case 5:
+                    validLocation(2, selectedRow, selectedColumn, direction, Models.Board.Board.BattleBoard);
+                    if (validPlacement == false)
+                    {
+                        break;
+                    }
+                    shipNumber++;
+                    break;
+            }
+
+            DirectionalPop.IsOpen = false;
         }
     }
 }
